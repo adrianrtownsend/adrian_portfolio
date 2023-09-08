@@ -1,265 +1,275 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-} from "../assets";
+	mobile,
+	backend,
+	creator,
+	web,
+	javascript,
+	typescript,
+	html,
+	css,
+	reactjs,
+	redux,
+	tailwind,
+	nodejs,
+	mongodb,
+	git,
+	figma,
+	docker,
+	meta,
+	starbucks,
+	tesla,
+	shopify,
+	carrent,
+	jobit,
+	tripguide,
+	threejs,
+	ipUrlShortener,
+	designCompany,
+	digitalBanking,
+	laravel,
+	mysql,
+	sass,
+	jest,
+	firebase,
+	design,
+	programming,
+	crunchyroll,
+	htmlighting,
+	bydesign,
+	thm,
+	gale,
+} from '../assets';
 
 export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+	{
+		id: 'about',
+		title: 'About',
+	},
+	{
+		id: 'work',
+		title: 'Work',
+	},
+	{
+		id: 'contact',
+		title: 'Contact',
+	},
 ];
 
 const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+	{
+		title: 'Fullstack Developer',
+		icon: programming,
+	},
+	{
+		title: 'Mobile Developer',
+		icon: mobile,
+	},
+	{
+		title: 'Digital Designer',
+		icon: design,
+	},
+	{
+		title: 'Anime Enthusiast',
+		icon: crunchyroll,
+	},
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+	{
+		name: 'React JS',
+		icon: reactjs,
+	},
+	{
+		name: 'Laravel',
+		icon: laravel,
+	},
+	{
+		name: 'TypeScript',
+		icon: typescript,
+	},
+	{
+		name: 'MongoDB',
+		icon: mongodb,
+	},
+	{
+		name: 'MySQL',
+		icon: mysql,
+	},
+	{
+		name: 'Sass',
+		icon: sass,
+	},
+	{
+		name: 'Three JS',
+		icon: threejs,
+	},
+	{
+		name: 'git',
+		icon: git,
+	},
+	{
+		name: 'jest',
+		icon: jest,
+	},
+	{
+		name: 'figma',
+		icon: figma,
+	},
+	{
+		name: 'docker',
+		icon: docker,
+	},
+	{
+		name: 'firebase',
+		icon: firebase,
+	},
 ];
 
 const experiences = [
-  {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+	{
+		title: 'Ecommerce Developer',
+		company_name: 'HTM Lighting Solutions',
+		icon: htmlighting,
+		iconBg: '#383E56',
+		date: 'Jun 2017 - Jan 2020',
+		points: [
+			'Proficient in creating custom Liquid template themes for Shopify, effectively managing eCommerce stores across Shopify, eBay, and Amazon.',
+			'Development of custom solutions through third-party CRM platforms and email marketing to optimize business automation.',
+		],
+	},
+	{
+		title: 'Software Specialist / Project Manager',
+		company_name: 'ByDesign Tech',
+		icon: bydesign,
+		iconBg: '#E6DEDD',
+		date: 'Dec 2019 - Jul 2020',
+		points: [
+			'Software troubleshooting and training to product users and internal team members.',
+			'Responsible for project sprint management, feature testing & deployment, and software documentation.',
+			'Used knowledge of development operations to efficiently translate client business requirements to clear goals.',
+		],
+	},
+	{
+		title: 'Wordpress & React Developer',
+		company_name: 'Trust Home Medical / MyDrHank',
+		icon: thm,
+		iconBg: '#383E56',
+		date: 'Jul 2020 - Oct 2021',
+		points: [
+			'Crafted full-stack applications using React and WordPress, with user-friendly front-ends and robust content management.',
+			'Streamlined business processes by customizing OpenERP and seamlessly integrated Twilio for enhanced communication capabilities within applications.',
+			'Utilized AWS EC2 ensuring optimal performance and cost-efficiency, while also excelling in UI/UX design and custom CRM/marketing solutions.',
+		],
+	},
+	{
+		title: 'Fullstack Developer',
+		company_name: 'Gale Healthcare',
+		icon: gale,
+		iconBg: '#E6DEDD',
+		date: 'Nov 2021 - Sep 2023',
+		points: [
+			'Development of complex full-stack applications using React and Laravel, ensuring robustness, scalability, & maintainability.',
+			'Conducted code reviews and implemented efficient database solutions with MySQL, optimizing query performance and data integrity.',
+			'Leveraged AWS services like EC2, S3, and RDS to deploy, manage, and scale applications.',
+		],
+	},
 ];
 
 const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+	{
+		testimonial:
+			'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
+		name: 'Sara Lee',
+		designation: 'CFO',
+		company: 'Acme Co',
+		image: 'https://randomuser.me/api/portraits/women/4.jpg',
+	},
+	{
+		testimonial:
+			"I've never met a web developer who truly cares about their clients' success like Rick does.",
+		name: 'Chris Brown',
+		designation: 'COO',
+		company: 'DEF Corp',
+		image: 'https://randomuser.me/api/portraits/men/5.jpg',
+	},
+	{
+		testimonial:
+			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+		name: 'Lisa Wang',
+		designation: 'CTO',
+		company: '456 Enterprises',
+		image: 'https://randomuser.me/api/portraits/women/6.jpg',
+	},
 ];
 
 const projects = [
-  {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+	{
+		name: 'URL Shortener & IP tracker',
+		description:
+			'Web application that allows users to shorten url links and view detailed information on their IP address',
+		tags: [
+			{
+				name: 'typescript',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'sass',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'thirdpartyintegration',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: ipUrlShortener,
+		demo_link: 'https://adrianrtownsend.github.io/react-shortly-iptracker',
+		source_code_link:
+			'https://github.com/adrianrtownsend/react-shortly-iptracker',
+	},
+	{
+		name: 'Design Company Landing Page',
+		description:
+			'Responsive landing page with modern styling and slideshow animations',
+		tags: [
+			{
+				name: 'react',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'typescript',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'sass',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: designCompany,
+		demo_link: 'https://adrianrtownsend.github.io/react-website-two',
+		source_code_link: 'https://github.com/adrianrtownsend/react-website-two',
+	},
+	{
+		name: 'Digital Bank Landing Page',
+		description:
+			'A responsive react landing page designed to showcase modern ui/ux styling',
+		tags: [
+			{
+				name: 'react',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'typescript',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'sass',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: digitalBanking,
+		demo_link: 'https://adrianrtownsend.github.io/react-website-one',
+		source_code_link: 'https://github.com/adrianrtownsend/react-website-one',
+	},
 ];
 
 export { services, technologies, experiences, testimonials, projects };
