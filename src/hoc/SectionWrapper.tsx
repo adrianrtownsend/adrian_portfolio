@@ -2,8 +2,9 @@ import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
 import { staggerContainer } from '../utils/motion';
+import { ReactNode } from 'react';
 
-const StarWrapper = (Component: any, idName: string) =>
+const StarWrapper = (Component: ReactNode, idName: string) =>
 	function HOC() {
 		return (
 			<motion.section
@@ -19,8 +20,7 @@ const StarWrapper = (Component: any, idName: string) =>
 				>
 					&nbsp;
 				</span>
-
-				<Component />
+				{Component}
 			</motion.section>
 		);
 	};

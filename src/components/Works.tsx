@@ -1,4 +1,3 @@
-import React from 'react';
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 
@@ -116,4 +115,6 @@ const Works = () => {
 	);
 };
 
-export default SectionWrapper(Works, '');
+const WorksSectionWrapper = SectionWrapper(Works, 'works');
+
+export default WorksSectionWrapper;

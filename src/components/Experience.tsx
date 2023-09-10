@@ -1,4 +1,3 @@
-import React from 'react';
 import {
 	VerticalTimeline,
 	VerticalTimelineElement,
@@ -12,7 +11,20 @@ import { experiences } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { textVariant } from '../utils/motion';
 
-const ExperienceCard = ({ experience }) => {
+type Experience = {
+	title: string;
+	company_name: string;
+	icon: string;
+	iconBg: string;
+	date: string;
+	points: string[];
+};
+
+interface ExperienceCardProps {
+	experience: Experience;
+}
+
+const ExperienceCard = ({ experience }: ExperienceCardProps) => {
 	return (
 		<VerticalTimelineElement
 			contentStyle={{
@@ -84,4 +96,6 @@ const Experience = () => {
 	);
 };
 
-export default SectionWrapper(Experience, 'work');
+const ExperienceSectionWrapper = SectionWrapper(Experience, 'work');
+
+export default ExperienceSectionWrapper;

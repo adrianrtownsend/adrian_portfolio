@@ -1,5 +1,3 @@
-/* eslint-disable react-refresh/only-export-components */
-import React from 'react';
 import { Tilt } from 'react-tilt';
 import { motion } from 'framer-motion';
 
@@ -75,4 +73,6 @@ const About = () => {
 	);
 };
 
-export default SectionWrapper(About, 'about');
+const AboutSectionWrapper = SectionWrapper(About, 'about');
+
+export default AboutSectionWrapper;
