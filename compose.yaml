@@ -13,3 +13,5 @@ services:
       - .:/code
       - /code/node_modules
     restart: always
+    env_file:
+      - .env

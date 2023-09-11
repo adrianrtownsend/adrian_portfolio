@@ -1,4 +1,46 @@
-# React + TypeScript + Vite
+# Personal Portfolio
+
+My main portfolio is a Vite + React application with CI/CD additions included. Special thanks to the [Vite Team](https://vitejs.dev/guide/) &amp; [Adrian at Javascript Mastery](https://github.com/adrianhajdin/project_3D_developer_portfolio) for the project template.
+
+# [Click here to view Portfolio!]()
+
+# Running local steps
+
+- Setup contact form
+
+  You must create an account with [emailjs](https://www.emailjs.com/) as well as complete the steps to create a service and email template found [here](https://www.emailjs.com/docs/tutorial/adding-email-service/).
+
+  Once done replace the following variables found from the service and template settings
+
+  ```
+  VITE_APP_EMAILJS_SERVICE_ID=
+  VITE_APP_EMAILJS_TEMPLATE_ID=
+  VITE_APP_EMAILJS_PUBLIC_KEY=
+  ```
+
+  Replace these variables with your own chosen values
+
+  ```
+  VITE_APP_EMAILJS_TO_NAME=
+  VITE_APP_EMAILJS_TO_EMAIL=
+  VITE_APP_EMAILJS_SUBJECT=
+  ```
+
+- Run using `npm`
+
+```
+npm install
+npm run dev
+```
+
+- Run using `docker`
+
+```
+docker compose build
+docker compose up
+```
+
+# Notes from Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
