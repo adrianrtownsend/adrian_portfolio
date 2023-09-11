@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 
@@ -37,11 +37,11 @@ const Contact = () => {
 				import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
 				{
 					from_name: form.name,
-					to_name: 'Adrian Townsend',
+					to_name: import.meta.env.VITE_APP_EMAILJS_TO_NAME,
 					from_email: form.email,
-					to_email: 'atownsend013@yahoo.com',
+					to_email: import.meta.env.VITE_APP_EMAILJS_TO_EMAIL,
 					message: form.message,
-					subject: 'Portfolio Contact Form',
+					subject: import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
 				},
 				import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
 			)
