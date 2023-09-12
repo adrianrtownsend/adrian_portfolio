@@ -211,8 +211,8 @@ const projects = [
 			},
 		],
 		image: portfolio,
-		demo_link: 'https://adrianrtownsend.github.io/adrian_portfolio',
-		source_code_link: 'https://github.com/adrianrtownsend/adrian_portfolio',
+		demo_link: 'https://adrianrtownsend.github.io/portfolio',
+		source_code_link: 'https://github.com/adrianrtownsend/portfolio',
 	},
 	{
 		name: 'URL Shortener & IP tracker',
