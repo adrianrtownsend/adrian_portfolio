@@ -39,6 +39,11 @@ export const navLinks = [
 		id: 'contact',
 		title: 'Contact',
 	},
+	{
+		id: 'github',
+		title: 'Github',
+		link: 'https://github.com/adrianrtownsend',
+	},
 ];
 
 const services = [
