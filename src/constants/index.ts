@@ -23,6 +23,7 @@ import {
 	thm,
 	gale,
 	portfolio,
+	aws,
 } from '../assets';
 
 export const navLinks = [
@@ -87,6 +88,10 @@ const technologies = [
 	{
 		name: 'Three JS',
 		icon: threejs,
+	},
+	{
+		name: 'aws',
+		icon: aws,
 	},
 	{
 		name: 'git',
