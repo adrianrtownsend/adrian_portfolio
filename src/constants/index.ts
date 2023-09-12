@@ -22,6 +22,7 @@ import {
 	bydesign,
 	thm,
 	gale,
+	portfolio,
 } from '../assets';
 
 export const navLinks = [
@@ -204,7 +205,7 @@ const projects = [
 				color: 'pink-text-gradient',
 			},
 		],
-		image: ipUrlShortener,
+		image: portfolio,
 		demo_link: 'https://adrianrtownsend.github.io/adrian_portfolio',
 		source_code_link: 'https://github.com/adrianrtownsend/adrian_portfolio',
 	},
