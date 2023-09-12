@@ -16,7 +16,7 @@ const ServiceCard = ({ index, title, icon }: ServiceCardProps) => (
 	<Tilt className='xs:w-[250px] w-full'>
 		<motion.div
 			variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
-			className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+			className='w-full yellow-pink-gradient p-[1px] rounded-[20px] shadow-card'
 		>
 			<div
 				options={{
@@ -24,7 +24,7 @@ const ServiceCard = ({ index, title, icon }: ServiceCardProps) => (
 					scale: 1,
 					speed: 450,
 				}}
-				className='bg-white-100 rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+				className='bg-black-gradient rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
 			>
 				<img
 					src={icon}
@@ -32,7 +32,7 @@ const ServiceCard = ({ index, title, icon }: ServiceCardProps) => (
 					className='w-16 h-16 object-contain'
 				/>
 
-				<h3 className='text-tertiary text-[20px] font-bold text-center'>
+				<h3 className='text-black-100 text-[20px] font-bold text-center'>
 					{title}
 				</h3>
 			</div>
@@ -44,13 +44,13 @@ const About = () => {
 	return (
 		<>
 			<motion.div variants={textVariant()}>
-				<h2 className={styles.sectionHeadTextAlt}>Want to know more?</h2>
-				<p className={styles.sectionSubTextAlt}>I'm glad you asked!</p>
+				<h2 className={styles.sectionHeadText}>Want to know more?</h2>
+				<p className={styles.sectionSubText}>I'm glad you asked!</p>
 			</motion.div>
 
 			<motion.p
 				variants={fadeIn('', '', 0.1, 1)}
-				className='mt-4 text-white-100 text-[17px] font-light max-w-3xl leading-[30px]'
+				className='mt-4 text-primary text-[17px] font-light max-w-3xl leading-[30px]'
 			>
 				My primary skillset includes all things Javascript from React + Native,
 				Angular + Ionic, to PHP + Laravel, and many others. I have worked with

@@ -1,15 +1,16 @@
 /** @type {import('tailwindcss').Config} */
+// eslint-disable-next-line no-undef
 module.exports = {
 	content: ['./src/**/*.{js,jsx,ts,tsx}'],
 	mode: 'jit',
 	theme: {
 		extend: {
 			colors: {
-				primary: '#2EC4B6',
-				secondary: '#CBF3F0',
-				tertiary: '#FF9F1C',
-				'black-100': '#FFBF69',
-				'black-200': '#2F4858',
+				primary: '#21070f',
+				secondary: '#e4005e',
+				tertiary: '#fdd000',
+				'black-100': '#21070f',
+				'black-200': '#000000',
 				'white-100': '#f3f3f3',
 			},
 			boxShadow: {
@@ -19,7 +20,8 @@ module.exports = {
 				xs: '450px',
 			},
 			backgroundImage: {
-				'hero-pattern': "url('/src/assets/bg-green-one.png')",
+				'hero-pattern': "url('/src/assets/portfolio-background1.png')",
+				'contact-pattern': "url('/src/assets/contact-background.png')",
 			},
 		},
 	},

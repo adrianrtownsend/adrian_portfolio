@@ -157,6 +157,20 @@
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffbf69",endColorstr="#ff9f1c",GradientType=1);
 }
 
+.yellow-pink-gradient {
+	background: #21070f; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to top,
+		#e4005e,
+		#fdd000
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to top,
+		#e4005e,
+		#fdd000
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 /* canvas- styles */
 .canvas-loader {
 	font-size: 10px;

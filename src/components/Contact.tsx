@@ -3,12 +3,12 @@ import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
 
 import { styles } from '../styles';
-import { EarthCanvas } from './canvas';
+// import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
 const Contact = () => {
-	const formRef = useRef();
+	const formRef = useRef(null);
 	const [form, setForm] = useState({
 		name: '',
 		email: '',
@@ -17,9 +17,10 @@ const Contact = () => {
 
 	const [loading, setLoading] = useState(false);
 
-	const handleChange = (e) => {
-		const { target } = e;
-		const { name, value } = target;
+	const handleChange = (
+		e: React.FormEvent<HTMLInputElement | HTMLTextAreaElement>
+	) => {
+		const { name, value } = e.target as HTMLInputElement | HTMLTextAreaElement;
 
 		setForm({
 			...form,
@@ -27,7 +28,7 @@ const Contact = () => {
 		});
 	};
 
-	const handleSubmit = (e) => {
+	const handleSubmit = (e: React.SyntheticEvent) => {
 		e.preventDefault();
 		setLoading(true);
 
@@ -128,7 +129,7 @@ const Contact = () => {
 				variants={slideIn('right', 'tween', 0.2, 1)}
 				className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
 			>
-				<EarthCanvas />
+				{/* <EarthCanvas /> */}
 			</motion.div>
 		</div>
 	);

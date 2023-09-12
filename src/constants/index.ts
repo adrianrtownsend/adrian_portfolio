@@ -22,6 +22,7 @@ import {
 	bydesign,
 	thm,
 	gale,
+	portfolio,
 } from '../assets';
 
 export const navLinks = [
@@ -187,6 +188,27 @@ const testimonials = [
 ];
 
 const projects = [
+	{
+		name: 'Project Portfolio',
+		description: 'Vite + React portfolio with CI/CD integration',
+		tags: [
+			{
+				name: 'vite',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'tailwind',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'docker',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: portfolio,
+		demo_link: 'https://adrianrtownsend.github.io/adrian_portfolio',
+		source_code_link: 'https://github.com/adrianrtownsend/adrian_portfolio',
+	},
 	{
 		name: 'URL Shortener & IP tracker',
 		description:

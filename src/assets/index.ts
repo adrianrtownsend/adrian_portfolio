@@ -51,6 +51,8 @@ import bydesign from './imports/bydesign-logo.png';
 import htmlighting from './imports/htm-logo.png';
 import thm from './imports/thm-logo.png';
 
+import portfolio from './portfolio-thumbnail.png';
+
 export {
 	logo,
 	backend,
@@ -96,4 +98,5 @@ export {
 	bydesign,
 	htmlighting,
 	thm,
+	portfolio,
 };
