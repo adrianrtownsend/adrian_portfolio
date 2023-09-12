@@ -2,7 +2,7 @@
 
 My main portfolio is a Vite + React application with CI/CD additions included. Special thanks to the [Vite Team](https://vitejs.dev/guide/) &amp; [Adrian at Javascript Mastery](https://github.com/adrianhajdin/project_3D_developer_portfolio) for the project template.
 
-# [Click here to view Portfolio!](https://adrianrtownsend.github.io/adrian_portfolio/)
+# [Click here to view Portfolio!](https://adrianrtownsend.github.io/portfolio/)
 
 # Running local steps
 
