@@ -40,6 +40,8 @@ import sass from './imports/sass-original.svg';
 import jest from './imports/jest-plain.svg';
 import firebase from './imports/firebase-plain-wordmark.svg';
 
+import aws from './imports/aws.png';
+
 import ipUrlShortener from './imports/ip-tracker-url-shortener-screenshot.png';
 import designCompany from './imports/landing-page-screenshot.png';
 import digitalBanking from './imports/landing-page-screenshot-window.png';
@@ -90,6 +92,7 @@ export {
 	sass,
 	jest,
 	firebase,
+	aws,
 	crunchyroll,
 	design,
 	mobile,
