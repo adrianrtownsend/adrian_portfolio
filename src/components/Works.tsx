@@ -34,7 +34,7 @@ const ProjectCard = ({
 					scale: 1,
 					speed: 450,
 				}}
-				className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+				className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-full'
 			>
 				<div className='relative w-full h-[230px]'>
 					<img
@@ -58,7 +58,7 @@ const ProjectCard = ({
 				</div>
 
 				<div className='mt-5'>
-					<h3 className='text-white font-bold text-[24px]'>{name}</h3>
+					<h3 className='text-black-100 font-bold text-[24px]'>{name}</h3>
 					<p className='mt-2 text-secondary text-[14px]'>{description}</p>
 				</div>
 
@@ -75,7 +75,7 @@ const ProjectCard = ({
 
 				<div className='mt-4'>
 					<div onClick={() => window.open(demo_link, '_blank')}>
-						<p className='mt-2 text-light text-[12px]'>source code &gt;</p>
+						<p className='mt-2 text-primary text-[12px]'>source code &gt;</p>
 					</div>
 				</div>
 			</Tilt>
@@ -94,7 +94,7 @@ const Works = () => {
 			<div className='w-full flex'>
 				<motion.p
 					variants={fadeIn('', '', 0.1, 1)}
-					className='mt-3 text-primary text-[17px] max-w-3xl leading-[30px]'
+					className='mt-3 text-black-100 text-[17px] max-w-3xl leading-[30px]'
 				>
 					The following projects are some of my work showcasing my skills and
 					journey through different challenges and learning experieces. Links
@@ -102,8 +102,8 @@ const Works = () => {
 				</motion.p>
 			</div>
 
-			<div className='mt-20 flex flex-wrap gap-7'>
-				{projects.map((project, index) => (
+			<div className='mt-20 flex flex-wrap gap-7 items-stretch'>
+				{projects.slice(0, 3).map((project, index) => (
 					<ProjectCard
 						key={`project-${index}`}
 						index={index}

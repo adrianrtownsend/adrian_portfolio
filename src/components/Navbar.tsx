@@ -30,7 +30,7 @@ const Navbar = () => {
 			className={`${
 				styles.paddingX
 			} w-full flex items-center py-5 fixed top-0 z-20 ${
-				scrolled ? 'bg-primary' : 'bg-transparent'
+				scrolled ? 'bg-white-100/80' : 'bg-transparent'
 			}`}
 		>
 			<div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
@@ -42,7 +42,7 @@ const Navbar = () => {
 						window.scrollTo(0, 0);
 					}}
 				>
-					<p className='text-primary text-[18px] font-bold cursor-pointer flex '>
+					<p className='text-secondary text-[18px] font-bold cursor-pointer flex '>
 						Adrian Townsend&nbsp;
 						<span className='sm:block hidden'> | Fullstack Developer</span>
 					</p>
@@ -53,7 +53,7 @@ const Navbar = () => {
 						<li
 							key={nav.id}
 							className={`${
-								active === nav.title ? 'text-tertiary' : 'text-primary'
+								active === nav.title ? 'text-primary' : 'text-secondary'
 							} hover:text-tertiary text-[18px] font-medium cursor-pointer`}
 							onClick={() => setActive(nav.title)}
 						>

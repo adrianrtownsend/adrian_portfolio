@@ -2,7 +2,7 @@
 
 My main portfolio is a Vite + React application with CI/CD additions included. Special thanks to the [Vite Team](https://vitejs.dev/guide/) &amp; [Adrian at Javascript Mastery](https://github.com/adrianhajdin/project_3D_developer_portfolio) for the project template.
 
-# [Click here to view Portfolio!]()
+# [Click here to view Portfolio!](https://adrianrtownsend.github.io/adrian_portfolio/)
 
 # Running local steps
 
@@ -67,3 +67,8 @@ If you are developing a production application, we recommend updating the config
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Feature List (In Progress)
+
+- [ ] 3D Animation fixes
+- [ ] Newsletter headline feed

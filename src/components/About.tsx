@@ -44,13 +44,13 @@ const About = () => {
 	return (
 		<>
 			<motion.div variants={textVariant()}>
-				<h2 className={styles.sectionHeadTextAlt}>Want to know more?</h2>
-				<p className={styles.sectionSubTextAlt}>I'm glad you asked!</p>
+				<h2 className={styles.sectionHeadText}>Want to know more?</h2>
+				<p className={styles.sectionSubText}>I'm glad you asked!</p>
 			</motion.div>
 
 			<motion.p
 				variants={fadeIn('', '', 0.1, 1)}
-				className='mt-4 text-white-100 text-[17px] font-light max-w-3xl leading-[30px]'
+				className='mt-4 text-primary text-[17px] font-light max-w-3xl leading-[30px]'
 			>
 				My primary skillset includes all things Javascript from React + Native,
 				Angular + Ionic, to PHP + Laravel, and many others. I have worked with
