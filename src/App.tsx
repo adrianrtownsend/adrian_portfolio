@@ -10,6 +10,7 @@ import {
 	Tech,
 	Works,
 	// StarsCanvas,
+	News,
 } from './components';
 
 const App = () => {
@@ -28,6 +29,9 @@ const App = () => {
 					<Tech />
 					<div className='bg-white-100 bg-cover bg-no-repeat bg-center'>
 						<Works />
+					</div>
+					<div className='bg-tertiary bg-cover bg-no-repeat bg-center'>
+						<News />
 					</div>
 					{/*<Feedbacks />*/}
 					<div className='relative z-0'>
