@@ -145,7 +145,7 @@ const experiences = [
 		],
 	},
 	{
-		title: 'Wordpress & React Developer',
+		title: 'Full Stack Developer',
 		company_name: 'Trust Home Medical / MyDrHank',
 		icon: thm,
 		iconBg: '#383E56',
@@ -157,7 +157,7 @@ const experiences = [
 		],
 	},
 	{
-		title: 'Fullstack Developer',
+		title: 'Application Developer',
 		company_name: 'Gale Healthcare',
 		icon: gale,
 		iconBg: '#E6DEDD',
