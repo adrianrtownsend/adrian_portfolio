@@ -128,8 +128,9 @@ const experiences = [
 		iconBg: '#383E56',
 		date: 'Jun 2017 - Jan 2020',
 		points: [
-			'Proficient in creating custom Liquid template themes for Shopify, effectively managing eCommerce stores across Shopify, eBay, and Amazon.',
-			'Development of custom solutions through third-party CRM platforms and email marketing to optimize business automation.',
+			'Rebuilt online marketplace from Magento to Shopify platform',
+			'Managed multiple online stores including Amazon & Ebay',
+			'Optimized SEO and email marketing automations with Google and Mailchimp integrations',
 		],
 	},
 	{
@@ -151,9 +152,9 @@ const experiences = [
 		iconBg: '#383E56',
 		date: 'Jul 2020 - Oct 2021',
 		points: [
-			'Crafted full-stack applications using React and WordPress, with user-friendly front-ends and robust content management.',
-			'Streamlined business processes by customizing OpenERP and seamlessly integrated Twilio for enhanced communication capabilities within applications.',
-			'Utilized AWS EC2 ensuring optimal performance and cost-efficiency, while also excelling in UI/UX design and custom CRM/marketing solutions.',
+			'Crafted full-stack React and WordPress, applications - integrated with multiple softwares including Twilio, OpenERP, and Google',
+			'Migrated new and maintained multiple AWS EC2 environments',
+			'Collaborated directly with stakeholders to implement SDLC solutions and sprint goals',
 		],
 	},
 	{
@@ -163,9 +164,8 @@ const experiences = [
 		iconBg: '#E6DEDD',
 		date: 'Nov 2021 - Sep 2023',
 		points: [
-			'Development of complex full-stack applications using React and Laravel, ensuring robustness, scalability, & maintainability.',
-			'Conducted code reviews and implemented efficient database solutions with MySQL, optimizing query performance and data integrity.',
-			'Leveraged AWS services like EC2, S3, and RDS to deploy, manage, and scale applications.',
+			'Collaborated on multiple projects from updating applications to modern Stack/UI design, microservice integration, and performance optimization',
+			'Conducted code reviews and implemented solutions to optimize database performance',
 		],
 	},
 ];
