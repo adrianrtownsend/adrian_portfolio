@@ -24,6 +24,7 @@ import {
 	gale,
 	portfolio,
 	aws,
+	python,
 } from '../assets';
 
 export const navLinks = [
@@ -85,6 +86,10 @@ const technologies = [
 	{
 		name: 'MySQL',
 		icon: mysql,
+	},
+	{
+		name: 'Python',
+		icon: python,
 	},
 	{
 		name: 'Sass',
