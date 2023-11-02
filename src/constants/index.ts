@@ -25,6 +25,7 @@ import {
 	portfolio,
 	aws,
 	python,
+	underConstruction,
 } from '../assets';
 
 export const navLinks = [
@@ -203,6 +204,48 @@ const testimonials = [
 ];
 
 const projects = [
+	{
+		name: 'Fullstack Todo Boilderplate',
+		description:
+			'Expo/React Native + Apollo Server with Firebase & CI/CD Integration',
+		tags: [
+			{
+				name: 'react-native',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'graphql',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'docker',
+				color: 'pink-text-gradient',
+			},
+			{
+				name: 'gluestack',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'firebase',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'typeORM',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: underConstruction,
+		links: [
+			{
+				link: 'https://github.com/adrianrtownsend/todo_expo_client',
+				label: 'frontend source code',
+			},
+			{
+				link: 'https://github.com/adrianrtownsend/todo_apollo_server',
+				label: 'backend source code',
+			},
+		],
+	},
 	{
 		name: 'Project Portfolio',
 		description: 'Vite + React portfolio with CI/CD integration',
