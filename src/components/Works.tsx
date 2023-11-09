@@ -13,8 +13,9 @@ interface ProjectCardProps {
 	description: string;
 	tags: { name: string; color: string }[];
 	image: string;
-	source_code_link: string;
-	demo_link: string;
+	source_code_link?: string;
+	demo_link?: string;
+	links?: { link: string; label: string }[];
 }
 
 const ProjectCard = ({
@@ -25,6 +26,7 @@ const ProjectCard = ({
 	image,
 	source_code_link,
 	demo_link,
+	links,
 }: ProjectCardProps) => {
 	return (
 		<motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
@@ -43,18 +45,20 @@ const ProjectCard = ({
 						className='w-full h-full object-cover rounded-2xl'
 					/>
 
-					<div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-						<div
-							onClick={() => window.open(demo_link, '_blank')}
-							className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-						>
-							<img
-								src={globe}
-								alt='demo'
-								className='w-1/2 h-1/2 object-contain'
-							/>
+					{demo_link && (
+						<div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+							<div
+								onClick={() => window.open(demo_link, '_blank')}
+								className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+							>
+								<img
+									src={globe}
+									alt='demo'
+									className='w-1/2 h-1/2 object-contain'
+								/>
+							</div>
 						</div>
-					</div>
+					)}
 				</div>
 
 				<div className='mt-5'>
@@ -74,11 +78,23 @@ const ProjectCard = ({
 				</div>
 
 				<div className='mt-4'>
-					<div onClick={() => window.open(source_code_link, '_blank')}>
-						<p className='mt-2 text-primary text-[12px] cursor-pointer'>
-							source code &gt;
-						</p>
-					</div>
+					{source_code_link && (
+						<div onClick={() => window.open(source_code_link, '_blank')}>
+							<p className='mt-2 text-primary text-[12px] cursor-pointer'>
+								source code &gt;
+							</p>
+						</div>
+					)}
+					{links &&
+						links.map(({ link, label }) => {
+							return (
+								<div onClick={() => window.open(link, '_blank')}>
+									<p className='mt-2 text-primary text-[12px] cursor-pointer'>
+										{label} &gt;
+									</p>
+								</div>
+							);
+						})}
 				</div>
 			</Tilt>
 		</motion.div>
@@ -105,7 +121,7 @@ const Works = () => {
 			</div>
 
 			<div className='mt-20 flex flex-wrap gap-7 items-stretch'>
-				{projects.slice(0, 3).map((project, index) => (
+				{projects.map((project, index) => (
 					<ProjectCard
 						key={`project-${index}`}
 						index={index}

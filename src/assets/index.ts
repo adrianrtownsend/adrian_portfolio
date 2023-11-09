@@ -46,6 +46,7 @@ import aws from './imports/aws.png';
 import ipUrlShortener from './imports/ip-tracker-url-shortener-screenshot.png';
 import designCompany from './imports/landing-page-screenshot.png';
 import digitalBanking from './imports/landing-page-screenshot-window.png';
+import underConstruction from './imports/under-construction.png';
 
 import globe from './imports/globe-icon.png';
 
@@ -104,4 +105,5 @@ export {
 	thm,
 	portfolio,
 	python,
+	underConstruction,
 };
