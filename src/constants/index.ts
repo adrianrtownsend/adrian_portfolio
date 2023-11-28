@@ -25,7 +25,7 @@ import {
 	portfolio,
 	aws,
 	python,
-	underConstruction,
+	fullstackCmsScreenshot,
 } from '../assets';
 
 export const navLinks = [
@@ -205,46 +205,33 @@ const testimonials = [
 
 const projects = [
 	{
-		name: 'Fullstack Todo Boilderplate',
-		description:
-			'Expo/React Native + Apollo Server with Firebase & CI/CD Integration',
+		name: 'Fullstack CMS Application',
+		description: 'Next.js + Vercel application with Sanity.io CMS',
 		tags: [
 			{
-				name: 'react-native',
+				name: 'nextjs',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'graphql',
+				name: 'sanity',
 				color: 'green-text-gradient',
 			},
 			{
-				name: 'docker',
+				name: 'vercel',
 				color: 'pink-text-gradient',
 			},
 			{
-				name: 'gluestack',
+				name: 'tailwind',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'firebase',
+				name: 'auth0',
 				color: 'green-text-gradient',
 			},
-			{
-				name: 'typeORM',
-				color: 'pink-text-gradient',
-			},
 		],
-		image: underConstruction,
-		links: [
-			{
-				link: 'https://github.com/adrianrtownsend/todo_expo_client',
-				label: 'frontend source code',
-			},
-			{
-				link: 'https://github.com/adrianrtownsend/todo_apollo_server',
-				label: 'backend source code',
-			},
-		],
+		image: fullstackCmsScreenshot,
+		demo_link: 'https://blog-nextjs-sanity-sable-zeta.vercel.app/',
+		source_code_link: 'https://github.com/adrianrtownsend/blog-nextjs-sanity',
 	},
 	{
 		name: 'Project Portfolio',
